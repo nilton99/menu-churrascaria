@@ -1,0 +1,83 @@
+body {
+    display: inline-flexbox;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    background-color: rgb(46, 58, 97);
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+#logo {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    height: 25px;
+}
+
+.input-wrapper i {
+    align-items: center;
+    color: rgb(135, 160, 235);
+}
+
+.input-wrapper input {
+    border: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.atalho {
+    background-color: rgb(46, 58, 97);
+    border: 2px solid;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    height: 23px;
+}
+
+.recomendacaoDoChef {
+    margin-left: 13px;
+}
+
+.recomendacao div{
+    margin: 5px;
+}
+.recomendacao {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+.desc {
+    font-size: 15px;
+    text-align: center;
+}
+.valor{
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    margin-left: 25px
+}
+
