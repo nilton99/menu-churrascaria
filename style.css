@@ -27,11 +27,13 @@ h3 {
     justify-content: center;
     border: 2px solid black;
     height: 25px;
+    
 }
 
 .input-wrapper i {
     align-items: center;
     color: rgb(135, 160, 235);
+    margin: 5px solid red;
 }
 
 .input-wrapper input {
@@ -70,14 +72,51 @@ nav {
     width: 150px;
     height: 150px;
 }
+.recomendacao img {
+    max-width: 105%;
+    height: auto;
+}
 .desc {
     font-size: 15px;
     text-align: center;
 }
 .valor{
     color: red;
-    font-size: 22px;
+    font-size: 1.2rem;
     text-align: center;
     margin-left: 25px
 }
 
+#abertura {
+    margin-left: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.itensMenu {
+   display: flex;
+   margin-top: 10px;
+   height: 70px;
+}
+
+.desc {
+    display: grid;
+    margin-left: 15px;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.titleItem {
+    color: rgb(46, 58, 97);
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.descItem {
+    font-size: 10px;
+}
+
+.valorSecundario {
+    color:  rgb(46, 58, 97);
+    font-size: 1.2rem;
+}
