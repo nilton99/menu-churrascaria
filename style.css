@@ -25,15 +25,20 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
     height: 25px;
-    
+    width: 200px;
+    background-color: white;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 5px 3px rgb(199, 199, 199);
 }
 
 .input-wrapper i {
     align-items: center;
     color: rgb(135, 160, 235);
-    margin: 5px solid red;
 }
 
 .input-wrapper input {
@@ -60,43 +65,65 @@ nav {
     height: 23px;
 }
 
-.recomendacaoDoChef {
-    margin-left: 13px;
+.atalho span {
+    margin: 6px;
+    font-size: 1rem;
 }
 
-.recomendacao div{
-    margin: 5px;
+.recomendacaoDoChef {
+    margin-left: 13px;
+    margin-top: 20PX;
 }
+
+.recomendacao div {
+    margin: 5px;
+    width: 150px;
+}
+
+.reco {
+    border-radius: 10px;
+    box-shadow: 2px 5px 3px 1px rgb(199, 199, 199);
+    margin-bottom: 50px;
+}
+
+.dadosReco {
+    
+    
+}
+
 .recomendacao {
     display: flex;
     width: 150px;
     height: 150px;
 }
+
 .recomendacao img {
     max-width: 105%;
     height: auto;
 }
+
 .desc {
     font-size: 15px;
     text-align: center;
 }
-.valor{
+
+.valor {
     color: red;
     font-size: 1.2rem;
     text-align: center;
     margin-left: 25px
 }
 
-#abertura {
+.abertura {
     margin-left: 13px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .itensMenu {
-   display: flex;
-   margin-top: 10px;
-   height: 70px;
+    display: flex;
+    margin-top: 10px;
+    height: 70px;
 }
 
 .desc {
@@ -117,6 +144,6 @@ nav {
 }
 
 .valorSecundario {
-    color:  rgb(46, 58, 97);
+    color: rgb(46, 58, 97);
     font-size: 1.2rem;
 }
