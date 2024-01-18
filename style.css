@@ -1,3 +1,6 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
 body {
     display: inline-flexbox;
     margin-top: 0px;
@@ -116,7 +119,7 @@ nav {
 }
 
 .desc {
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -161,6 +164,6 @@ nav {
 }
 
 .valorSecundario {
-    color: rgb(46, 58, 97);
+    color: rgb(20, 27, 52);
     font-size: 1.2rem;
 }
