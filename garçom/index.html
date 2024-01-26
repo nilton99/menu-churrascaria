@@ -4,27 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>menu</title>
+    <title>Garçom</title>
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<link rel="stylesheet" href="./style.scss">
+<link rel="stylesheet" href="/style.css">
 
 <body>
     <header>
         <div>
             <img src="/image/logo1.png" alt="logo, image de panela">
             <span>
-                <h3>Tempeiro da serra</h3>
+                <h3>Tempeiro da serra <br>
+                    Gerador de pedidos
+                </h3>
+                <h3></h3>
             </span>
-        </div>
-        <div class="container">
-            <div class="input-wrapper">
-                <i class="fa fa-search"></i>
-                <input placeholder="Pesquise aqui">
-            </div>
         </div>
     </header>
     <nav>
@@ -56,71 +53,47 @@
     </nav>
     <main>
         <div class="recomendacaoDoChef">
-            <span class="paragrafo">
-                Recomendações do chef
-            </span>
-            <div class="recomendacao">
-                <div class="reco">
-                    <img src="./image/picanha5.jpeg" alt=" espeto com picanha">
-                    <div class="dadosReco">
-                        <span class="desc">
-                            Picanha na chapa
-                        </span>
-                        <span class="valor">
-                            R$49.90
-                        </span>
-                    </div>
-                </div>
-                <div class="reco">
-                    <img src="./image/pratopinha.jpg" alt="picanha com queijo">
-                    <div class="dadosReco">
-                        <span class="desc">
-                            Patropinha de carne
-                        </span>
-                        <span class="valor">
-                            R$24.90
-                        </span>
-                    </div>
-                </div>
-                <div class="reco">
-                    <img src="./image/Como-Fazer-Espetinho-de-Frango-2.jpg" alt="espeto de frango">
-                    <div class="dadosReco">
-                        <span class="desc">
-                            Espetinho de frango
-                        </span>
-                        <span class="valor">
-                            R$24,90
-                        </span>
-                    </div>
-                </div>
-            </div>
 
             <div class="abertura">
                 <span class="paragrafo">
                     Espetos
                 </span>
                 <div class="itensMenu">
-                    <img src="./image/Como-Fazer-Espetinho-de-Frango-2.jpg" alt="espeto de frango">
                     <div class="desc">
                         <span class="titleItem">Espeto de frango</span>
                         <span class="descItem">Espeto 200g, porção de arroz, farofa e mandioca cozida. </span>
                         <span class="valorSecundario">R$24,90</span>
                     </div>
+                    <div class="quant">
+                        <input type="button" value="-" class="menos">
+                        <input type="number" class="mostrador">
+                        <input type="button" value="+" class="mais">
+                    </div>
                 </div>
                 <div class="itensMenu">
-                    <img src="./image/gado.jpg" alt="espeto de contra filé">
+
                     <div class="desc">
                         <span class="titleItem">Espeto de carne bolvino</span>
                         <span class="descItem">Espeto 200g, Porção de arroz, farofa e mandioca cozida.</span>
                         <span class="valorSecundario"> R$24,90</span>
                     </div>
+                    <div class="quant">
+                        <input type="button" value="-" class="menos">
+                        <input type="number" class="mostrador">
+                        <input type="button" value="+" class="mais">
+                    </div>
                 </div>
                 <div class="itensMenu">
-                    <img src="./image/carne com queijo.jpeg" alt="espetinho de caner bolvina com quiejo">
+
                     <div class="desc">
                         <span class="titleItem">Espeto de carne com queijo</span>
                         <span class="descItem">Espeto 200g, Porção de arroz, farofa e mandioca cozida.</span>
                         <span class="valorSecundario">R$24,90</span>
+                    </div>
+                    <div class="quant">
+                        <input type="button" value="-" class="menos">
+                        <input type="number" class="mostrador">
+                        <input type="button" value="+" class="mais">
                     </div>
                 </div>
 
@@ -128,126 +101,184 @@
             <div class="abertura">
                 <span class="paragrafo">Carnes na chapa</span>
                 <div class="itensMenu">
-                    <img src="./image/picanha com queijo.jpeg" alt="picanha com queijo na chapa">
+
                     <div class="desc">
                         <span class="titleItem">Picanha com queijo</span>
-                        <span class="descItem">
-                            serve 350g acompanhado de Porção de arroz, farofa e mandioca cozida.
-                        </span>
+                        <span class="descItem">serve 350g acompanhado de Porção de arroz, farofa e mandioca cozida.</span>
                         <span class="valorSecundario"> R$49,90</span>
+                    </div>
+                    <div class="quant">
+                        <input type="button" value="-" class="menos">
+                        <input type="number" class="mostrador">
+                        <input type="button" value="+" class="mais">
                     </div>
                 </div>
                 <div class="itensMenu">
-                    <img src="./image/picanha5.jpeg" alt="picanha">
+
                     <div class="desc">
                         <span class="titleItem">Picanha</span>
                         <span class="descItem">serve 350g acompanhado de Porção de arroz, farofa e mandioca
                             cozida.</span>
                         <span class="valorSecundario">R$49,90</span>
                     </div>
+                    <div class="quant">
+                        <input type="button" value="-" class="menos">
+                        <input type="number" class="mostrador">
+                        <input type="button" value="+" class="mais">
+                    </div>
                 </div>
                 <div class="itensMenu">
-                    <img src="./image/carre de porco.jpg" alt="bisteca suina">
+
                     <div class="desc">
                         <span class="titleItem">Carré de porco</span>
                         <span class="descItem">serve 350g acompanhado de Porção de arroz, farofa e mandioca
                             cozida.</span>
                         <span class="valorSecundario">R$49,90</span>
                     </div>
-                </div>
-            </div>
-            <div class="abertura">
-                <span class="paragrafo">Porções</span>
-                <div class="itensMenu">
-                    <img src="./image/arroz.jpg" alt="porção de arroz.">
-                    <div class="desc">
-                        <span class="titleItem">Porção de arroz</span>
-                        <span class="descItem">serve 300g, para 1 pessoa.</span>
-                        <span class="valorSecundario">R$14,90</span>
+                    <div class="quant">
+                        <input type="button" value="-" class="menos">
+                        <input type="number" class="mostrador">
+                        <input type="button" value="+" class="mais">
                     </div>
-                </div>
-                <div class="itensMenu">
-                    <img src="./image/baião.jpg" alt="prato de bião">
-                    <div class="desc">
-                        <span class="titleItem">Porção de baião </span>
-                        <span class="descItem">Serve 300g, para 1 pessoa.</span>
-                        <span class="valorSecundario">R$14,90</span>
-                    </div>
-                </div>
-                <div class="itensMenu">
-                    <img src="./image/Mandioca frita e sequinha_ como fazer.jpg" alt="mandioca frita">
-                    <div class="desc">
-                        <span class="titleItem">Mandioca frita</span>
-                        <span class="descItem">Serve 300g, para 1 pessoa.</span>
-                        <span class="valorSecundario">R$14,90</span>
-                    </div>
-                </div>
-                <div class="itensMenu">
-                    <img src="./image/Mandioca na Pressão - Receita Natureba.jpg" alt="mandioca cozinhada">
-                    <div class="desc">
-                        <span class="titleItem">Mandioca cozida</span>
-                        <span class="descItem">Serve 400g, para 1 pessoa.</span>
-                        <span class="valorSecundario">R$19,90</span>
-                    </div>
-                </div>
-                <div class="itensMenu">
-                    <img src="./image/pratopinha.jpg" alt="">
-                    <div class="desc">
-                        <span class="titleItem">Patropinha de carne</span>
-                        <span class="descItem">serve 400g, para 1 pessoa, prato feito.</span>
-                        <span class="valorSecundario">R$24,90</span>
-                    </div>
-                </div>
-                <div class="itensMenu">
-                    <img src="./image/carne de sol com mandioca.jpg"
-                        alt="porção de mandioca com carne de sol">
-                    <div class="desc">
-                        <span class="titleItem">Carne de sol com mandioca</span>
-                        <span class="descItem">Serve 500g, para 2 pessoas.</span>
-                        <span class="valorSecundario">R$29,90</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="recomendacaoDoChef">
+            </div>    </div>
                 <div class="abertura">
-                    <span class="paragrafo">Bebidas</span>
+                    <span class="paragrafo">Porções</span>
                     <div class="itensMenu">
-                        <img src="./image/guarana-antarctica.jpg" alt="refrigerante lata 350ml">
+
                         <div class="desc">
-                            <span class="titleItem">Guaraná antartica latinha</span>
-                            <span class="descItem">Refrigerante antartica 350ml.</span>
-                            <span class="valorSecundario">R$4,99</span>
-                        </div>
-                    </div>
-                    <div class="itensMenu">
-                        <img src="./image/Refrigerante Coca-cola Lata 350ml.jpg" alt="coca cola latinha 250ml">
-                        <div class="desc">
-                            <span class="titleItem">Coca-cola latinha</span>
-                            <span class="descItem">Coca-cola latinha 350ml.</span>
-                            <span class="valorSecundario">R$7,90</span>
-                        </div>
-                    </div>
-                    <div class="itensMenu">
-                        <img src="./image/Refrigerante Coca-Cola Original Garrafa 2l.jpg" alt="coca cola 2">
-                        <div class="desc">
-                            <span class="titleItem">Coca-cola 2L </span>
-                            <span class="descItem">Refrigerante coca-cola 2l.</span>
+                            <span class="titleItem">Porção de arroz</span>
+                            <span class="descItem">serve 300g, para 1 pessoa.</span>
                             <span class="valorSecundario">R$14,90</span>
                         </div>
+                        <div class="quant">
+                            <input type="button" value="-" class="menos">
+                            <input type="number" class="mostrador">
+                            <input type="button" value="+" class="mais">
+                        </div>
                     </div>
                     <div class="itensMenu">
-                        <img src="./image/Refrigerante Guaraná Antarctica Pet 2 Litros.jpg"
-                            alt="Refrigerante antatartica 2l">
+
                         <div class="desc">
-                            <span class="titleItem">Antartica 2L</span>
-                            <span class="descItem">Guaraná antartica 2L.</span>
+                            <span class="titleItem">Porção de baião </span>
+                            <span class="descItem">Serve 300g, para 1 pessoa.</span>
                             <span class="valorSecundario">R$14,90</span>
+                        </div>
+                        <div class="quant">
+                            <input type="button" value="-" class="menos">
+                            <input type="number" class="mostrador">
+                            <input type="button" value="+" class="mais">
+                        </div>
+                    </div>
+                    <div class="itensMenu">
+
+                        <div class="desc">
+                            <span class="titleItem">Mandioca frita</span>
+                            <span class="descItem">Serve 300g, para 1 pessoa.</span>
+                            <span class="valorSecundario">R$14,90</span>
+                        </div>
+                        <div class="quant">
+                            <input type="button" value="-" class="menos">
+                            <input type="number" class="mostrador">
+                            <input type="button" value="+" class="mais">
+                        </div>
+                    </div>
+                    <div class="itensMenu">
+
+                        <div class="desc">
+                            <span class="titleItem">Mandioca cozida</span>
+                            <span class="descItem">Serve 400g, para 1 pessoa.</span>
+                            <span class="valorSecundario">R$19,90</span>
+                        </div>
+                        <div class="quant">
+                            <input type="button" value="-" class="menos">
+                            <input type="number" class="mostrador">
+                            <input type="button" value="+" class="mais">
+                        </div>
+                    </div>
+                    <div class="itensMenu">
+
+                        <div class="desc">
+                            <span class="titleItem">Patropinha de carne</span>
+                            <span class="descItem">serve 400g, para 1 pessoa, prato feito.</span>
+                            <span class="valorSecundario">R$24,90</span>
+                        </div>
+                        <div class="quant">
+                            <input type="button" value="-" class="menos">
+                            <input type="number" class="mostrador">
+                            <input type="button" value="+" class="mais">
+                        </div>
+                    </div>
+                    <div class="itensMenu">
+                        <div class="desc">
+                            <span class="titleItem">Carne de sol com mandioca</span>
+                            <span class="descItem">Serve 500g, para 2 pessoas.</span>
+                            <span class="valorSecundario">R$29,90</span>
+                        </div>
+                        <div class="quant">
+                            <input type="button" value="-" class="menos">
+                            <input type="number" class="mostrador">
+                            <input type="button" value="+" class="mais">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="recomendacaoDoChef">
+                    <div class="abertura">
+                        <span class="paragrafo">Bebidas</span>
+                        <div class="itensMenu">
+
+                            <div class="desc">
+                                <span class="titleItem">Guaraná antartica latinha</span>
+                                <span class="descItem">Refrigerante antartica 350ml.</span>
+                                <span class="valorSecundario">R$4,99</span>
+                            </div>
+                            <div class="quant">
+                                <input type="button" value="-" class="menos">
+                                <input type="number" class="mostrador">
+                                <input type="button" value="+" class="mais">
+                            </div>
+                        </div>
+                        <div class="itensMenu">
+
+                            <div class="desc">
+                                <span class="titleItem">Coca-cola latinha</span>
+                                <span class="descItem">Coca-cola latinha 350ml.</span>
+                                <span class="valorSecundario">R$7,90</span>
+                            </div>
+                            <div class="quant">
+                                <input type="button" value="-" class="menos">
+                                <input type="number" class="mostrador">
+                                <input type="button" value="+" class="mais">
+                            </div>
+                        </div>
+                        <div class="itensMenu">
+
+                            <div class="desc">
+                                <span class="titleItem">Coca-cola 2L </span>
+                                <span class="descItem">Refrigerante coca-cola 2l.</span>
+                                <span class="valorSecundario">R$14,90</span>
+                            </div>
+                            <div class="quant">
+                                <input type="button" value="-" class="menos">
+                                <input type="number" class="mostrador">
+                                <input type="button" value="+" class="mais">
+                            </div>
+                        </div>
+                        <div class="itensMenu">
+                            <div class="desc">
+                                <span class="titleItem">Antartica 2L</span>
+                                <span class="descItem">Guaraná antartica 2L.</span>
+                                <span class="valorSecundario">R$14,90</span>
+                            </div>
+                            <div class="quant">
+                                <input type="button" value="-" class="menos">
+                                <input type="number" class="mostrador">
+                                <input type="button" value="+" class="mais">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            
     </main>
 </body>
 

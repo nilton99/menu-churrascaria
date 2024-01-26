@@ -142,7 +142,6 @@ nav {
     margin-top: 10px;
     height: 70px;
     box-shadow: 2px 5px 3px 1px rgb(199, 199, 199);
-    
 }
 
 
@@ -166,4 +165,35 @@ nav {
 .valorSecundario {
     color: rgb(20, 27, 52);
     font-size: 1.2rem;
+}
+
+/*css garcon*/
+
+.quant {
+    display: -webkit-box;
+    margin-left: auto;
+    width: 120px;
+}
+
+.menos {
+    background-color:   rgb(69, 118, 161);
+    color: white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.mostrador {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.mais {
+    background-color:  rgb(69, 118, 161);
+    color: white;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
 }
